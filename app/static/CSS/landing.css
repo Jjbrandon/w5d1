@@ -5,8 +5,10 @@ body{
 
 }
 
-.container{
+#landing-container{
     margin-left: 30vh;
+    height: 100vh;
+    margin-top: 10vh;
 }
 
 .form-group{
@@ -25,7 +27,7 @@ body{
     border-radius: 3px;
 }
 
-button{
+#landbutton{
     border-radius: 5px;
     margin-top: 2vh;
     width: 19vh;
@@ -36,7 +38,7 @@ button{
 
 }
 
-button:hover{
+#landbutton:hover{
     background-color: rgb(0, 0, 0);
     color: white;
     

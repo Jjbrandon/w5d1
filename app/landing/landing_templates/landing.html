@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/landing.css') }}.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/landing.css') }}">
   <link rel="stylesheet" href="landing.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +19,7 @@
 {% block content %}
 
 
-<div class="container">
+<div id="landing-container" class="container">
         <h1>Purchasing Vehicles<br>Made Easy</h1>
         <h5 id="htag">Find exactly what you're looking<br> for with Automobiles</p>
         <form>
@@ -28,7 +28,7 @@
               <small>We'll never share your email with anyone else.</small>
             </div>
         </form>
-        <button>Sign Up</button>
+        <button id="landbutton">Sign Up</button>
       </div>
         
       </div>
